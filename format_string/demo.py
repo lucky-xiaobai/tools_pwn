@@ -41,5 +41,5 @@ if __name__ =='__main__':
 	menu_last='3. Exit the battle \n'			# here is upon on problem
 	op='2'							# here is upon on problem
 	fuzz_str_64(ip,port,menu_last,op)
-	fuzz_str_32(ip,port,menu_last,op)
+	# fuzz_str_32(ip,port,menu_last,op)
 
