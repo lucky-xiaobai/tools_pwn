@@ -33,12 +33,13 @@ def fuzz_str_64(ip,port,menu_last,op):
 			break
 		else:
 			io.close()
-			sleep(0.5)		# avoid nc too fast
+			sleep(0.5)				# avoid nc too fast
 
 if __name__ =='__main__':
 	ip='61.147.171.105'					# input your ip
 	port='50389'						# input your port
-	menu_last='3. Exit the battle \n'	# here is upon on problem
-	op='2'								# here is upon on problem
+	menu_last='3. Exit the battle \n'			# here is upon on problem
+	op='2'							# here is upon on problem
 	fuzz_str_64(ip,port,menu_last,op)
+	fuzz_str_32(ip,port,menu_last,op)
 
