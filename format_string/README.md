@@ -1,4 +1,4 @@
-# 用来判断步长的
+# Used to determine the step length of a string
 注意：该脚本是半自动化的，需要预先在main里面添加相关信息
 ip和port为题目提供的环境(本地测试的话，把remote换成process，把ip和port换成elf文件名即可)
 menu_last和op根据题目的要求进行填写
